@@ -16,6 +16,9 @@ The lab pins `Brotli==1.2.0` and reproduces a **target-specific RCE chain** in a
 
 ## Quick start
 
+<img width="1267" height="560" alt="image" src="https://github.com/user-attachments/assets/d8fd76f8-59be-4a7e-bb39-d057c6748f04" />
+
+
 Terminal 1:
 ```bash
 ./setup.sh

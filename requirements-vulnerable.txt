@@ -1,0 +1,2 @@
+# Intentionally vulnerable, lab-only wheel. PyPI artifact pinned by SHA-256.
+Brotli==1.2.0 --hash=sha256:40d918bce2b427a0c4ba189df7a006ac0c7277c180aee4617d99e9ccaaf59e6a

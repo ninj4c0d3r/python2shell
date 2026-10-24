@@ -1,0 +1,19 @@
+services:
+  vulnerable:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python2shell-lab:local
+    platform: linux/amd64
+    ports:
+      - "127.0.0.1:8080:8080"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=16m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+      - seccomp=unconfined
+    mem_limit: 384m
+    pids_limit: 64
